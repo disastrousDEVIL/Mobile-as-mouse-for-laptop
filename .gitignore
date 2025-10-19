@@ -1,6 +1,7 @@
 venv/
 build/
-dist/
+# keep dist to publish binaries
+# dist/
 __pycache__/
 *.pyc
 .DS_Store
