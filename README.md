@@ -8,7 +8,7 @@ Control your Windows laptop mouse from your phone via a simple FastAPI + WebSock
 - Runs as a standalone `mouse.exe` after packaging
 
 ### Quick Start (no install)
-- Download `mouse.exe` from the `dist` folder in this repository and run it.
+- Download `mouse.exe` from the root of this repository and run it.
 - If you only want to use the app, you do NOT need to download any other files.
 
 ### Prerequisites (for source users)
@@ -25,7 +25,7 @@ Then open your phone browser to: `http://<PC-IP>:5000/`
 ```bash
 pyinstaller main.spec
 ```
-Output binary: `dist/mouse.exe`
+Output binary: `dist/mouse.exe` (we publish a copy as root `mouse.exe` for convenience)
 
 ### Notes
 - Ensure PC and phone are on the same network.

@@ -1,7 +1,7 @@
+# keep Python and build artifacts ignored
 venv/
 build/
-# keep dist to publish binaries
-# dist/
+dist/
 __pycache__/
 *.pyc
 .DS_Store
